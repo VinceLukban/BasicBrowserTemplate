@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity()
                 return true
             }
         }
-        webView.loadUrl(urlEditText.text.toString())
+        webView.loadUrl("www.google.com")
     }
     }
 
